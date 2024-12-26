@@ -1,0 +1,124 @@
+body {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-transform: capitalize;
+     background-color: #964B00;
+     cursor: context-menu;
+}
+.whole {
+     height: auto;
+     width: 15%;
+     height: 50%;
+     background-color: aqua;
+     padding: 7% 12%;
+     position: absolute;
+     top: 10%;
+     left: 30%;
+     border-radius: 8% 8% 8% 8%;
+}
+.whole:hover  {
+     box-shadow: 0px 5px 40px 0px aquamarine;
+     transition: 1s ease;
+     border-radius: 15% 15% 15% 15%;
+}
+.whole:active {
+     box-shadow: 0px 20px 20px 0px aquamarine;
+     transition: .5s ease-in-out;
+}
+.one:focus .whole {
+     box-shadow: 0px 20px 20px 0px aquamarine;
+     transition: .4s ease-in-out;
+}
+.top {
+     position: absolute;
+     top: 2%;
+     font-size: 170%;
+     left: 40%;
+}
+input.inp {
+     width: 40%;
+     height: 10px;
+     padding: 12px 20px;
+     border-style: solid;
+     border-width: 1px;
+     border-color: aqua;
+     border-radius: 4px;
+     background-color: aquamarine;
+     transition: 0.4s ease-in-out;
+     color: white;
+}
+.a {
+     position: absolute;
+     left: 12%;
+     font-size: 110%;
+     top: 15%;
+}
+#name {
+     position: absolute;
+     top: 25%;
+     left: 12%;
+}
+.inp:focus {
+     border: none;
+     border-bottom: 2px solid aquamarine;
+     background-color: transparent;
+     width: 50%;
+}
+.inp:hover {
+     background-color: whitesmoke;
+     color: black;
+     transition: 0.7s ease-in-out;
+}
+.b {
+     position: absolute;
+     left: 12%;
+     font-size: 110%;
+     top: 35%;
+}
+#pass {
+     position: absolute;
+     top: 45%;
+     left: 12%;
+}
+input[type=submit] {
+     background-color: aquamarine;
+     border-style: solid;
+     border-width: 1px;
+     border-color: rgb(0, 0, 0);
+     height: 35px;
+     width: 70%;
+     transition: .5s ease-in-out;
+     position: absolute;
+     right: 15%;
+     top: 68%;
+     color: rgb(0, 0, 0);
+     cursor: pointer;
+}
+input[type=submit]:hover {
+     background-color: transparent;
+}
+.fp {
+     word-spacing: 0.3em;
+     position: absolute;
+     top: 58%;
+     left: 35%;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+}
+.fp:hover {
+     color: white;
+     transition: 0.5s;
+}
+.iko {
+     position: absolute;
+     top: 75%;
+     left: 35%;
+}
+.qw {
+     color: black;
+     text-decoration: none;
+}
+.qw:hover {
+     color: white;
+     transition: .5s;
+}

@@ -1,30 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
      <head>
-          <link rel="icon" type="x-icon" href="favicon.ico">
-          <title>Signup</title>
-          <link rel="stylesheet" type="text/css" href="signup.css">
+          <link href="login.css" rel="stylesheet" type="text/css">
+          <link href="favicon.ico" type="x-icon" rel="icon">
+          <title>Login(Hydra)</title>
+          <meta name="description" content="A simple startup page">
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
      </head>
      <body>
           <div class="whole">
-               <h3>LOGIN</h3>
-               <form action="/page.php" method="get" id="form1" class="form1">
-                    <p>Full Name</p>
-                    <input type="text" placeholder="Full Name">
-                    <p>Username</p>
-                    <input type="text" placeholder="Username">
-                    <p>Password</p>
-                    <input type="password" placeholder="Password">
-                    <p>Confirm Password</p>
-                    <input type="password" placeholder="Enter Password Again">
-                    <p>Phone Number</p>
-                    <input type="number" placeholder="Phone number">
-                    <p>E-mail Address</p>
-                    <input type="email" placeholder="Email Address">
-                    <input type="submit" value="SIGN UP">
+               <h3 class="top">Log In</h3>
+               <form>
+                    <p class="a">Email</p>
+                    <input type="email" id="name" class="inp">
+                    <p class="b">Password</p>
+                    <input type="password" id="pass" class="inp">
+                    <br>
+                    <input type="submit" value="Login">
                </form>
+               <a href="fp.html" class="fp">Forgotten Password?</a>
+               <p class="iko">New user, signup <a href="register.html" class="qw">here</a></p>
           </div>
      </body>
 </html>

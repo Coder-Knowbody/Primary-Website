@@ -1,0 +1,68 @@
+body {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: #964B00;
+}
+.whole {
+     position: absolute;
+     left: 35%;
+     top: 30%;
+     background-color: aqua;
+     border-radius: 8%;
+     height: 40%;
+     width: 30%;
+}
+.whole:hover {
+     box-shadow: 0px 5px 30px 0px aquamarine;
+     transition: .4s ease-in-out;
+}
+h3 {
+     font-size: 120%;
+     text-align: center;
+}
+p {
+     position: absolute;
+     left: 18%;
+     top: 25%;
+     color: #964B00;
+}
+.inp1 {
+     width: 40%;
+     height: 10px;
+     padding: 12px 20px;
+     border: 1px solid aqua;
+     border-radius: 4px;
+     background-color: aquamarine;
+     transition: .7s ease-in-out;
+     color: #964B00;
+     position: absolute;
+     top: 40%;
+     left: 15%;
+}
+.inp1:focus {
+     border: none;
+     background-color: transparent;
+     width: 50%;
+     transition: .7s ease-in-out;
+}
+.inp1:hover {
+     background-color: whitesmoke;
+     color: black;
+}
+a.btn {
+     background-color: white;
+     padding: 10px 15px;
+     border-radius: 4px;
+     position: absolute;
+     top: 65%;
+     left: 60%;
+     text-decoration: none;
+     color: #964B00;
+     background-color: aquamarine;
+     border: 1px solid #964B00;
+}
+a.btn:hover {
+     background-color: transparent;
+     color: black;
+     border-radius: 8px;
+     transition: .4s ease-in-out;
+}
