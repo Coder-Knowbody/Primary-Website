@@ -62,7 +62,8 @@ a.btn {
 }
 a.btn:hover {
      background-color: transparent;
+     border-color: black;
      color: black;
      border-radius: 8px;
-     transition: .4s ease-in-out;
+     transition: .7s ease-in-out;
 }
